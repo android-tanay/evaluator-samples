@@ -4,4 +4,4 @@
 def iteration_check(x):
   try: iter(x)
   except TypeError: return False
-else: return True
+  else: return True
